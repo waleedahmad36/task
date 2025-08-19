@@ -1,0 +1,123 @@
+/* details  */
+#details #heading{
+    font-weight: 600px;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+#dp_img{
+    width: 40px;
+    height: 40px;
+}
+#border-right{
+    border-right: 1px solid #000;
+    padding-right: 40px;
+}
+#left_img_details{
+    flex-grow: 1;
+}
+#left_img_details img{
+    width: 780px;
+    height: 580px;
+    border-radius: 16px;
+}
+#details_right{
+    width: 400px;
+    height: 580px;
+    border-radius: 12px;
+    padding-bottom: 10px !important;
+}
+#details_right #details_heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+#details_right p{
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 16px;
+}
+#details_p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+/* End of details  */
+
+
+/* ingredients  */
+#ing_heading{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+#check_bg{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#check_bg_all{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gap-8{
+    gap: 40px !important;
+    margin-top: 40px;
+}
+.border-b-4{
+    border-bottom: 1px solid #000;
+    padding-bottom: 6px;
+    width: 650px;
+}
+@media  screen and (max-width:700px) {
+    .border-b-4{
+    border-bottom: 1px solid #000;
+    padding-bottom: 6px;
+    width: 360px;
+}
+}
+#ing_right_item img{
+    width: 120px;
+    height: 80px;
+    border-radius: 16px;
+}
+.gap-6{
+    gap: 60px;
+}
+/* End of ingredients  */
+
+/* directions  */
+#directions_contnent{
+    padding-left: 40px;
+    margin-top: 30px;
+}
+#directions_contnent p {
+    font-weight: 400;
+    font-size: 16px;
+}
+/* end of directions  */
+
+/* suggested recipees  */
+#suggested_heading{
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -4%;
+}
+#suggested_item p{
+    font-size: 16px !important;
+}
+#suggested_item span{
+    font-size: 12px !important;
+}
+
+/* end of suggested recipees  */

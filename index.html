@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Foodieland.</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav id="navbar">
+      <div id="logo">
+        <span>Foodieland</span>
+        <div id="dot"></div>
+      </div>
+      <!-- lg menu  -->
+      <div id="nav_menu_lg">
+        <a href="/index.html">Home</a>
+        <a href="/Recipee.html">Recipees</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/postPage.html">About Us</a>
+      </div>
+      <!-- End of lg menu  -->
+      <!-- Social Icons  -->
+      <div id="social_icons_lg">
+        <a href="#" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-dark"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" class="text-dark"><i class="fab fa-instagram"></i></a>
+      </div>
+      <!-- End of social icons  -->
+
+      <i class="fa-solid fa-bars" id="toggle"></i>
+      <!-- mobilenav  -->
+      <div id="mobile_nav">
+        <div id="nav_menu">
+          <a href="/index.html">Home</a>
+          <a href="/Recipee.html">Recipees</a>
+          <a href="/blog.html">Blog</a>
+          <a href="/contact.html">Contact</a>
+          <a href="/postPage.html">About Us</a>
+        </div>
+        <div id="social_icons">
+          <a href="#" class="text-dark"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-dark"><i class="fab fa-x-twitter"></i></a>
+          <a href="#" class="text-dark"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <!-- End of mobilenav  -->
+    </nav>
+
+    <!-- End of navbar  -->
+
+    <!-- Hero section  -->
+    <section id="hero">
+      <!-- banners -->
+      <div
+        class="rounded-lg d-flex flex-column flex-lg-row container p-0 overflow-hidden my-3 position-relative"
+        id="hero_container"
+      >
+        <!-- Left side -->
+        <div
+          class="col-12 col-lg-6 hero-bg p-5 d-flex flex-column gap-4 justify-content-center"
+        >
+          <button
+            class="btn btn-light d-flex align-items-center gap-3 w-fit rounded-lg"
+          >
+            <img
+              src="images/image 14.png"
+              alt=""
+              style="width: 30px; height: 30px"
+            />
+            <span class="fw-bold">Hot Recipes</span>
+          </button>
+
+          <h3 id="hearo_heading">Spicy delicious chicken wings</h3>
+
+          <p class="text-secondary fw-semibold">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+            cumque harum, dicta eum adipisci facere quo at
+          </p>
+
+          <div class="d-flex gap-4 flex-wrap" id="hero_btns">
+            <button class="btn btn-bg-hero">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </button>
+            <button class="btn btn-bg-hero">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Chicken</span>
+            </button>
+          </div>
+
+          <div
+            class="d-flex justify-content-between align-items-center flex-wrap mt-5"
+          >
+            <!-- Author Info -->
+            <div class="d-flex align-items-center gap-3 m-3 m-lg-0">
+              <img
+                src="images/Ellipse 2.png"
+                alt=""
+                width="50px"
+                height="50px"
+              />
+              <div>
+                <span class="fs-6 fw-bold">John Smith</span><br />
+                <span>15 March 2022</span>
+              </div>
+            </div>
+
+            <!-- View Recipes Button -->
+            <button
+              class="btn btn-dark d-flex align-items-center gap-2 justify-content-center"
+              id="recipee_btn"
+            >
+              <span>View Recipes</span>
+              <img src="images/PlayCircle.png" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <!-- Right side image -->
+        <div class="col-12 col-lg-6">
+          <img
+            src="images/heroimage.png"
+            alt=""
+            class="img-fluid w-100 h-100 object-fit-cover"
+          />
+        </div>
+
+        <img
+          src="images/Badge.png"
+          class="d-none d-lg-block position-absolute start-50 translate-middle-x"
+          alt=""
+          style="top: 80px"
+        />
+      </div>
+
+      <div
+        class="rounded-lg d-flex flex-column flex-lg-row container p-0 overflow-hidden my-3 position-relative"
+        id="hero_container"
+      >
+        <!-- Left side -->
+        <div
+          class="col-12 col-lg-6 hero-bg p-5 d-flex flex-column gap-4 justify-content-center"
+        >
+          <button
+            class="btn btn-light d-flex align-items-center gap-3 w-fit rounded-lg"
+          >
+            <img
+              src="images/image 14.png"
+              alt=""
+              style="width: 30px; height: 30px"
+            />
+            <span class="fw-bold">Hot Recipes</span>
+          </button>
+
+          <h3 id="hearo_heading">Spicy delicious chicken wings</h3>
+
+          <p class="text-secondary fw-semibold">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+            cumque harum, dicta eum adipisci facere quo at
+          </p>
+
+          <div class="d-flex gap-4 flex-wrap" id="hero_btns">
+            <button class="btn btn-bg-hero">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </button>
+            <button class="btn btn-bg-hero">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Chicken</span>
+            </button>
+          </div>
+
+          <div
+            class="d-flex justify-content-between align-items-center flex-wrap mt-5"
+          >
+            <!-- Author Info -->
+            <div class="d-flex align-items-center gap-3 m-3 m-lg-0">
+              <img
+                src="images/Ellipse 2.png"
+                alt=""
+                width="50px"
+                height="50px"
+              />
+              <div>
+                <span class="fs-6 fw-bold">John Smith</span><br />
+                <span>15 March 2022</span>
+              </div>
+            </div>
+
+            <!-- View Recipes Button -->
+            <button
+              class="btn btn-dark d-flex align-items-center gap-2 justify-content-center"
+              id="recipee_btn"
+            >
+              <span>View Recipes</span>
+              <img src="images/PlayCircle.png" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <!-- Right side image -->
+        <div class="col-12 col-lg-6">
+          <img
+            src="images/heroimage.png"
+            alt=""
+            class="img-fluid w-100 h-100 object-fit-cover"
+          />
+        </div>
+
+        <img
+          src="images/Badge.png"
+          class="d-none d-lg-block position-absolute start-50 translate-middle-x"
+          alt=""
+          style="top: 80px"
+        />
+      </div>
+
+      <div
+        class="rounded-lg d-flex flex-column flex-lg-row container p-0 overflow-hidden my-3 position-relative"
+        id="hero_container"
+      >
+        <!-- Left side -->
+        <div
+          class="col-12 col-lg-6 hero-bg p-5 d-flex flex-column gap-4 justify-content-center"
+        >
+          <button
+            class="btn btn-light d-flex align-items-center gap-3 w-fit rounded-lg"
+          >
+            <img
+              src="images/image 14.png"
+              alt=""
+              style="width: 30px; height: 30px"
+            />
+            <span class="fw-bold">Hot Recipes</span>
+          </button>
+
+          <h3 id="hearo_heading">Spicy delicious chicken wings</h3>
+
+          <p class="text-secondary fw-semibold">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+            cumque harum, dicta eum adipisci facere quo at
+          </p>
+
+          <div class="d-flex gap-4 flex-wrap" id="hero_btns">
+            <button class="btn btn-bg-hero">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </button>
+            <button class="btn btn-bg-hero">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Chicken</span>
+            </button>
+          </div>
+
+          <div
+            class="d-flex justify-content-between align-items-center flex-wrap mt-5"
+          >
+            <!-- Author Info -->
+            <div class="d-flex align-items-center gap-3 m-3 m-lg-0">
+              <img
+                src="images/Ellipse 2.png"
+                alt=""
+                width="50px"
+                height="50px"
+              />
+              <div>
+                <span class="fs-6 fw-bold">John Smith</span><br />
+                <span>15 March 2022</span>
+              </div>
+            </div>
+
+            <!-- View Recipes Button -->
+            <button
+              class="btn btn-dark d-flex align-items-center gap-2 justify-content-center"
+              id="recipee_btn"
+            >
+              <span>View Recipes</span>
+              <img src="images/PlayCircle.png" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <!-- Right side image -->
+        <div class="col-12 col-lg-6">
+          <img
+            src="images/heroimage.png"
+            alt=""
+            class="img-fluid w-100 h-100 object-fit-cover"
+          />
+        </div>
+
+        <img
+          src="images/Badge.png"
+          class="d-none d-lg-block position-absolute start-50 translate-middle-x"
+          alt=""
+          style="top: 80px"
+        />
+      </div>
+
+      <!-- End of banners  -->
+    </section>
+    <!-- End of hero section  -->
+
+    <!-- Categories  -->
+    <section class="container my-5 pt-5">
+      <div class="d-flex justify-content-between">
+        <h3 class="fs-1 fw-bold">Categories</h3>
+        <button class="btn btn-bg-hero" id="cat_btn">
+          View All Categories
+        </button>
+      </div>
+
+      <div
+        class="mt-5 d-flex gap-4 justify-content-center flex-wrap flex-lg-nowrap"
+      >
+        <div
+          class="breakfast-cat-bg d-flex flex-column justify-content-between align-items-center"
+          id="cat"
+        >
+          <img src="images/image 25.png" alt="" />
+          <p>Breakfast</p>
+        </div>
+        <div
+          class="vegan-cat-bg d-flex flex-column justify-content-between align-items-center"
+          id="cat"
+        >
+          <img src="images/image 20.png" alt="" />
+          <p>Vegan</p>
+        </div>
+        <div
+          class="meat-cat-bg d-flex flex-column justify-content-between align-items-center"
+          id="cat"
+        >
+          <img src="images/image 21.png" alt="" />
+          <p>Meat</p>
+        </div>
+        <div
+          class="desert-cat-bg d-flex flex-column justify-content-between align-items-center"
+          id="cat"
+        >
+          <img src="images/image 22.png" alt="" />
+          <p>Desert</p>
+        </div>
+        <div
+          class="lunch-cat-bg d-flex flex-column justify-content-between align-items-center"
+          id="cat"
+        >
+          <img src="images/image 23.png" alt="" />
+          <p class="fs-6 fw-bold">Lunch</p>
+        </div>
+        <div
+          class="choc-cat-bg d-flex flex-column justify-content-between gap-4 align-items-center"
+          id="cat"
+        >
+          <img src="images/image 24.png" alt="" />
+          <p class="fs-6 fw-bold">Choclate</p>
+        </div>
+      </div>
+    </section>
+    <!-- End of categories  -->
+
+    <!-- Recipee list  -->
+    <section class="my-5 py-5">
+      <h3 class="text-center mt-5" id="recipee_heading">
+        Simple and tasty reipees
+      </h3>
+      <p class="text-center text-secondary my-3">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+        aspernatur suscipit laudantium! Corrupti <br />sint error illum laborum
+      </p>
+
+      <!-- list items  -->
+      <div class="d-flex flex-wrap gap-3 justify-content-center">
+        <div
+          class="hero-bg w-fit h-fit p-3 position-relative"
+          id="recipee_item"
+        >
+          <div class="position-absolute top-2 right-2">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img src="images/list1.png" alt="" width="360px" />
+          <p class="fw-bold fs-6 m-3">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 m-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="hero-bg w-fit h-fit p-2 position-relative"
+          id="recipee_item"
+        >
+          <div class="position-absolute top-2 right-2">
+            <button class="btn btn-light p-3 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-slight"></i>
+            </button>
+          </div>
+          <img src="images/list2.png" alt="" width="360px" />
+          <p class="fw-bold fs-6 m-3">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 m-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="hero-bg w-fit h-fit p-3 position-relative"
+          id="recipee_item"
+        >
+          <div class="position-absolute right-2">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img src="images/list3.png" alt="" width="360px" />
+          <p class="fw-bold fs-6 m-3">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 m-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="hero-bg w-fit h-fit p-3 position-relative"
+          id="recipee_item"
+        >
+          <div class="position-absolute right-2">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-slight"></i>
+            </button>
+          </div>
+          <img src="images/list4.png" alt="" width="360px" />
+          <p class="fw-bold fs-6 m-3">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 m-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="hero-bg w-fit h-fit p-3 position-relative"
+          id="recipee_item"
+        >
+          <div class="position-absolute right-2">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img src="images/list5.png" alt="" width="360px" />
+          <p class="fw-bold fs-6 m-3">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 m-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-radial p-3 rounded-3 d-flex flex-column align-items-center justify-content-between"
+          id="green_box"
+        >
+          <p class="text-light fw-bold fs-3 text-center">
+            Don't forget to <br />
+            eat healthy food
+          </p>
+          <img src="images/list6.png" alt="" />
+          <p class="text-secondary" id="www">www.food.com</p>
+        </div>
+        <div class="hero-bg w-fit p-3 position-relative" id="recipee_item">
+          <div class="position-absolute right-2">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img src="images/list8.png" alt="" width="360px" />
+          <p class="fw-bold fs-6 m-3">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 m-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bg w-fit p-3 position-relative" id="recipee_item">
+          <div class="position-absolute right-2">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-slight"></i>
+            </button>
+          </div>
+          <img src="images/list7.png" alt="" class="rounded-3" width="360px" />
+          <p class="fw-bold fs-6 m-3">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 m-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bg w-fit p-3 position-relative" id="recipee_item">
+          <div class="position-absolute right-2">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img src="images/list9.png" alt="" width="360px" />
+          <p class="fw-bold fs-6 m-3">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 m-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of recipee list  -->
+
+    <!-- Chef section  -->
+    <section class="container">
+      <div
+        class="d-flex flex-wrap flex-lg-nowrap justify-content-between gap-4 px-5 align-items-center"
+      >
+        <!-- lefty side  -->
+        <div class="">
+          <h3 class="mb-5" style="max-width: 400px" id="chef_heading">
+            Everyone can be a chef in their own kitchen
+          </h3>
+          <p class="text-secondary" style="max-width: 500px" id="chef_p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo iste
+            totam optio nam commodi harum neque veniam, voluptatibus qui iure
+            suscipit ipsum esse,
+          </p>
+          <button class="btn btn-dark mt-3" id="chef_btn">Learn more</button>
+        </div>
+        <!-- right side  -->
+        <div class="">
+          <img
+            src="images/shef.png"
+            alt=""
+            height="400px"
+            width="500px"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- End of chef section  -->
+
+    <!-- istagramm checkout  -->
+    <section class="container my-5">
+      <h3 class="text-center" #chef_heading>
+        Check out @foodieland. on Instagram
+      </h3>
+      <p class="text-secondary text-center mt-3">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+        Dolores sapiente exercitationem optio porro quas tempora obcaecati
+        dolorum, voluptatem expedita veniam.
+      </p>
+
+      <!-- instacards  -->
+      <div class="row mt-5 g-3">
+        <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+          <img src="images/p1.png" alt="" class="img-fluid" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+          <img src="images/p2.png" alt="" class="img-fluid" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+          <img src="images/p3.png" alt="" class="img-fluid" />
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+          <img src="images/p4.png" alt="" class="img-fluid" />
+        </div>
+      </div>
+
+      <button
+        class="btn btn-dark d-flex align-items-center gap-2 mx-auto mt-5 justify-content-center"
+        id="insta_btn"
+      >
+        <span>Visit our Instagram</span>
+        <i class="fab fa-instagram"></i>
+      </button>
+    </section>
+    <!-- end of instagram checkout  -->
+
+    <!-- delicious recipee  -->
+    <section class="container my-5">
+      <div
+        class="d-flex justify-content-between flex-wrap gap-5 align-items-center"
+      >
+        <h3 class="" id="chef_heading" style="max-width: 480px">
+          Try these delicious recipes to make your day
+        </h3>
+        <span class="fs-6 fw-semibold text-secondary" style="max-width: 500px"
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla in
+          quibusdam amet facere dolorem obcaecati .</span
+        >
+      </div>
+
+      <!-- dish items  -->
+      <div class="d-flex my-5 gap-4 flex-wrap justify-content-center">
+        <div class="w-fit position-relative">
+          <div class="position-absolute right-2_n">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img
+            src="images/list3.png"
+            alt=""
+            class="rounded-dish"
+            width="250px"
+          />
+          <p class="fw-bold mt-2">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div class="w-fit position-relative">
+          <div class="position-absolute right-2_n">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img
+            src="images/list2.png"
+            alt=""
+            class="rounded-dish"
+            width="250px"
+          />
+          <p class="fw-bold mt-2">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div class="w-fit position-relative">
+          <div class="position-absolute right-2_n">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img
+            src="images/list4.png"
+            alt=""
+            class="rounded-dish"
+            width="250px"
+          />
+          <p class="fw-bold mt-2">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div class="w-fit position-relative">
+          <div class="position-absolute right-2_n">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img
+            src="images/list6.png"
+            alt=""
+            class="rounded-dish"
+            width="250px"
+          />
+          <p class="fw-bold mt-2">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div class="w-fit position-relative">
+          <div class="position-absolute right-2_n">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img
+            src="images/list7.png"
+            alt=""
+            class="rounded-dish"
+            width="250px"
+          />
+          <p class="fw-bold mt-2">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div class="w-fit position-relative">
+          <div class="position-absolute right-2_n">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img
+            src="images/list9.png"
+            alt=""
+            class="rounded-dish"
+            width="250px"
+          />
+          <p class="fw-bold mt-2">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div class="w-fit position-relative">
+          <div class="position-absolute right-2_n">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img
+            src="images/list4.png"
+            alt=""
+            class="rounded-dish"
+            width="250px"
+          />
+          <p class="fw-bold mt-2">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+        <div class="w-fit position-relative">
+          <div class="position-absolute right-2_n">
+            <button class="btn btn-light p-2 rounded-circle shadow-sm">
+              <i class="fas fa-heart text-danger"></i>
+            </button>
+          </div>
+          <img
+            src="images/list5.png"
+            alt=""
+            class="rounded-dish"
+            width="250px"
+          />
+          <p class="fw-bold mt-2">
+            Big and juisy Wegu Beef <br />
+            cheese Burger
+          </p>
+          <div class="mt-2 mb-4 d-flex gap-3">
+            <div class="d-flex gap-2">
+              <img src="images/Timer.png" alt="" />
+              <span>30 minutes</span>
+            </div>
+            <div class="d-flex gap-2">
+              <img src="images/ForkKnife.png" alt="" />
+              <span>Snack</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of delicious recipee  -->
+
+   <!-- contact  -->
+    <section
+      class="container hero-bg rounded-dish py-5 d-flex flex-column align-items-center justify-content-center gap-4 my-5 position-relative"
+    >
+      <h3 class=" mt-3"  
+      id="contact_heading"
+      >Deslicious to your inbox</h3>
+      <p class="text-secondary text-center"   style="max-width: 600px;" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum
+        quia delectus et facere necessitatibus aspernatur suscipit veritatis,
+        vel nihil.
+      </p>
+      <div
+        class="bg-white d-flex mx-auto w-fit px-2 px-md-2 py-2 py-lg:3 rounded-lg"   
+      >
+        <input
+          type="text"
+          class="bg-none border border-0 no-outline px-2 py-lg-2"
+          placeholder="your email address..."
+        />
+        <button class="btn btn-dark px-4 px-lg-5 py-2 py-lg-3 fw-semibold"   style="border-radius: 16px;" >
+          Subscribe
+        </button>
+      </div>
+      <img
+        src="images/salad.png"
+        alt=""
+        class="position-absolute bottom-0 start-0 d-none d-lg-block"
+      />
+
+      <img
+        src="images/photo.png"
+        alt=""
+        class="position-absolute bottom-0 end-0 d-none d-lg-block"
+      />
+    </section>
+    <!-- end of contact  -->
+
+    <!-- upperfooter -->
+    <section
+      class="container d-flex justify-content-center justify-content-lg-between align-items-center flex-wrap my-5"
+    >
+      <div class="">
+        <h3 class="fw-bold">Foodieland.</h3>
+        <p>Lorem, ipsum dolor consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="d-flex gap-3">
+        <a href="#">Recipees</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <a href="#">About Us</a>
+      </div>
+    </section>
+    <!-- end of upper footer  -->
+
+    <!-- Footer  -->
+    <footer class="d-flex justify-content-between container py-4">
+      <div id="blank" class="d-none d-lg-block"></div>
+      <p class="fs-6 fw-bold">
+        Powered by Explore <span class="text-danger">Logics.</span>
+      </p>
+      <div>
+        <a href="#" class="text-dark me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-dark me-3"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" class="text-dark"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+    <!-- Enf of Footer  -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>

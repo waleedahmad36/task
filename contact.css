@@ -1,0 +1,33 @@
+/* contact form  */
+#inp_group input,select{
+    width: 370px;
+    height: 50px;
+    border-radius: 16px;
+    border: 1px solid #5f5b5b;
+}
+#inp_group select{
+    appearance: none;
+}
+#right_2{
+    right: 12px;
+    top: 18px;
+}
+#inp_group textarea{
+    width: 750px;
+    height: 150px;
+    border-radius: 16px;
+}
+
+
+#submit_btn{
+    width: 180px;
+    height: 60px;
+    border-radius: 16px;
+}
+
+@media screen and (max-width:780px) {
+    #inp_group textarea{
+        width: 370px ;
+    }
+}
+/* end of contact form  */

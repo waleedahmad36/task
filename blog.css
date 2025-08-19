@@ -1,0 +1,72 @@
+/* input div  */
+#inp_div{
+    background-color: #fff;
+    width: 700px;
+    height: 80px;
+    border: 1px solid #aea8a8;
+    border-radius: 24px;
+    margin: 30px auto;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    align-items: center;
+    padding: 0 10px;
+}
+#inp_div input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 10px 14px;
+}
+#inp_div button{
+    width: 160px;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 16px;
+}
+/* end of inp div  */
+
+
+/* pagg left  */
+#pagg_left{
+    width: 800px;
+}
+#dp_img{
+    width: 40px !important;
+    height: 40px !important;
+}
+#border-right{
+    border-right: 1px solid #000;
+    padding-right: 40px;
+}
+#pagg_item{
+    margin-top: 20px;
+}
+#pagg_item img {
+    width: 290px;
+    height: 200px;
+    border-radius: 20px;
+}
+/* end of pagg left  */
+
+
+@media screen and (max-width:700px) {
+    #inp_div{
+        width: 90%;
+    }
+    #pagg_item img {
+    width: 95%;
+    height: 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+}
+
+.gen_pagg{
+    display: none;
+}
+
+.active{
+    display: block !important;
+}

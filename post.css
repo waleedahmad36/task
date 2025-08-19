@@ -1,0 +1,40 @@
+/* hero sec  */
+
+#post_heading{
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -4%;
+    line-height: 100%;
+}
+#border-right{
+    border-right: 1px solid #000;
+    padding-right: 40px;
+}
+.rounded-lg{
+    border-radius: 16px;
+}
+.gradient_bg{
+    background: linear-gradient(to right, rgb(238, 235, 235) 0%, rgba(0,0,0,0) 100%);
+}
+#post_left{
+    max-width: 700px;
+}
+#post_left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+#post_left h3 {
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 36px;
+    letter-spacing: -4%;
+}
+
+@media screen and (min-width:900px) {
+    .w-custom{
+        width: 980px;
+    }
+}
+/* end of hero sec  */
