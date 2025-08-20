@@ -5,10 +5,14 @@
 #navbar {
   display: flex;
   justify-content: space-between;
-  padding: 30px 36px;
+  padding: 30px 0px;
   align-items: center;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   position: relative;
+}
+#navbar a{
+  font-weight: 500;
+  font-size: 16px;
 }
 #navbar #logo {
   font-size: 22px;
@@ -52,6 +56,9 @@
 @media screen and (max-width: 880px) {
   #toggle {
     display: block;
+  }
+  #navbar{
+    padding: 30px 20px;
   }
   #navbar #nav_menu_lg {
     display: none;
@@ -105,29 +112,41 @@
 
 /* Hero section  */
 #hero {
-  display: flex;
-  gap: 40px;
-  overflow-x: scroll;
-  padding: 12px 20px;
-  padding-left: 65px;
+   padding: 12px 10px;
 }
-#hero::-webkit-scrollbar {
-  display: none;
-}
-#hero_container {
+.hero_slide {
   min-height: 600px;
-  width: 1280px;
   border-radius: 28px;
-  flex-shrink: 0;
+}
+
+.slick-list {
+  overflow: visible !important;
+  /* padding: 10px 20px; */
+}
+
+.slick-slide {
+  /* padding: 0 10px;  slides ke andar space */
+  box-sizing: border-box;
+  margin: 0 10px;
 }
 #hearo_heading {
   font-weight: 600;
-  font-size: 64px;
+  font-size: 48px;
   letter-spacing: -4%;
   line-height: 100%;
 }
 #hero_btns button {
-  border-radius: 16px;
+  border-radius: 30px;
+  width: 139px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+#hero_btns button img{
+  width: 20px;
+  height: 20px;
 }
 #recipee_btn {
   width: 200px;
@@ -139,22 +158,32 @@
   border-radius: 16px;
 }
 @media screen and (max-width: 600px) {
-  #hero_container {
-    min-height: 800px;
+   #hearo_heading {
+    font-size: 40px;
+  }
+  #contact_inp_bg_div{
     width: 380px !important;
   }
-  #hero_container #hearo_heading {
+  #contact_inp_bg_div input {
+    width: 200px !important;
+  }
+  .w-fit-sm{
+    width: fit-content;
+  }
+  #cat_btn {
+  width: 150px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 16px;
+}
+}
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+   #hearo_heading {
     font-size: 40px;
   }
 }
-@media screen and (min-width: 600px) and (max-width: 1200px) {
-  #hero_container {
-    min-height: 800px;
-    width: 700px !important;
-  }
-  #hero_container #hearo_heading {
-    font-size: 40px;
-  }
+@media screen and (min-width: 900px)  {
+  
 }
 /* End of hero section  */
 
@@ -214,7 +243,7 @@
 /* Chef section  */
 #chef_heading {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 38px;
   line-height: 100%;
   letter-spacing: -4%;
 }

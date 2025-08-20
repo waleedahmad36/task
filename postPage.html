@@ -23,7 +23,7 @@
 </head>
 <body>
       <!-- navbar  -->
-    <nav id="navbar">
+    <nav class="container px-3" id="navbar">
       <div id="logo">
         <span>Foodieland</span>
         <div id="dot"></div>
@@ -64,6 +64,8 @@
       <!-- End of mobilenav  -->
     </nav>
 
+    <hr  style="margin-top: -1px;" >
+
     <!-- End of navbar  -->
 
     <!-- hero sec  -->
@@ -87,13 +89,13 @@
               <span  class="text-secondary font-semibold" >15 august 2020</span>
              </div>
 
-            <p   class="text-secondary text-center mt-5 mx-auto" style="max-width: 600px;"    >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar.</p>
+            <p   class="text-secondary text-center mt-5 mx-auto" style="max-width: 900px;"    >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar.</p>
 
-            <img src="/images/image 29.png"  class="img-fluid rounded-lg  mt-4 w-custom"  alt="">
+            <img src="/images/image 29.png"  class="img-fluid rounded-lg  mt-4 w-custom"  alt=""   id="post_img">
 
 
             <!-- left right sec  -->
-             <div   class="d-flex mt-5 flex-wrap justify-content-center flex-lg-nowrap px-3 px-lg-0" >
+             <div   class="d-flex mt-5 flex-wrap justify-content-center justify-content-lg-between flex-lg-nowrap px-3  px-lg-0" >
                 <!-- left side  -->
                  <div    class="d-flex flex-column gap-3"   id="post_left" >
                     <h3    >How did you start out in the food industry?</h3>
@@ -108,8 +110,8 @@
                     <p   class="text-secondary" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit.</p>
                     <h3    >What would your advice be to young people looking to get their foot in the door?</h3>
                     <p  class="text-secondary" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex. Praesent feugiat elementum ex ut suscipit.</p>
-                    <div  class="p-4 rounded-lg gradient_bg " >
-                        <p   >“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.”</p>
+                    <div  class="p-4 rounded-lg gradient_bg  " >
+                        <p  class="fw-bold" >“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.”</p>
                     </div>
 
                     <h3   >What is the biggest misconception that people have about being a professional chef?</h3>
@@ -137,23 +139,24 @@
     <section
       class="container hero-bg rounded-dish py-5 d-flex flex-column align-items-center justify-content-center gap-4 my-5 position-relative"
     >
-      <h3 class=" mt-3"  
-      id="contact_heading"
-      >Deslicious to your inbox</h3>
-      <p class="text-secondary text-center"   style="max-width: 600px;" >
+      <h3 class="mt-3" id="contact_heading">Deslicious to your inbox</h3>
+      <p class="text-secondary text-center" style="max-width: 600px">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum
         quia delectus et facere necessitatibus aspernatur suscipit veritatis,
         vel nihil.
       </p>
       <div
-        class="bg-white d-flex mx-auto w-fit px-2 px-md-2 py-2 py-lg:3 rounded-lg"   
+        class="bg-white d-flex justify-content-between mx-auto  px-2 px-md-2 py-2 py-lg:3 rounded-lg"   style="width: 480px;"    id="contact_inp_bg_div" 
       >
         <input
           type="text"
-          class="bg-none border border-0 no-outline px-2 py-lg-2"
+          class="bg-none border border-0 no-outline px-2 py-lg-2"    style="width: 300px;"
           placeholder="your email address..."
         />
-        <button class="btn btn-dark px-4 px-lg-5 py-2 py-lg-3 fw-semibold"   style="border-radius: 16px;" >
+        <button
+          class="btn btn-dark px-4 px-lg-5 py-2 py-lg-3 fw-semibold"
+          style="border-radius: 16px"
+        >
           Subscribe
         </button>
       </div>
@@ -175,119 +178,105 @@
      <section  id="suggested_heading"  class="container"  >
         <h3  class="text-center" >Check out the delicious recipe</h3>
 
-       <div class="d-flex my-5 gap-4 flex-wrap flex-lg-nowrap justify-content-center"     id="suggested_item" >
-
-        <!-- items  -->
-        <div class="w-fit position-relative"     >
-          <div class="position-absolute right-2_n">
-            <button class="btn btn-light p-2 rounded-circle shadow-sm">
-              <i class="fas fa-heart text-danger"></i>
-            </button>
+       <div class="row justify-content-center  my-5 g-4"   id="suggested_item" >
+    <!-- item -->
+    <div class="col-12 col-md-6 col-lg-3 w-fit-sm ">
+      <div class="position-relative">
+        <div class="position-absolute right-2_n">
+          <button class="btn btn-light p-2 rounded-circle shadow-sm">
+            <i class="fas fa-heart text-danger"></i>
+          </button>
+        </div>
+        <img src="images/list3.png" alt="" class="rounded-dish img-fluid" />
+        <p class="fw-bold mt-2">
+          Big and juisy Wegu Beef <br />
+          cheese Burger
+        </p>
+        <div class="mt-2 mb-4 d-flex gap-3">
+          <div class="d-flex gap-2">
+            <img src="images/Timer.png" alt="" />
+            <span>30 minutes</span>
           </div>
-          <img
-            src="images/list3.png"
-            alt=""
-            class="rounded-dish"
-            width="240px"
-          />
-          <p class="fw-bold mt-2"    >
-            Big and juisy Wegu Beef <br />
-            cheese Burger
-          </p>
-          <div class="mt-2 mb-4 d-flex gap-3">
-            <div class="d-flex gap-2">
-              <img src="images/Timer.png" alt=""  width="15" />
-              <span  >30 minutes</span>
-            </div>
-            <div class="d-flex gap-2">
-              <img src="images/ForkKnife.png" alt=""  width="15"  />
-              <span   >Snack</span>
-            </div>
+          <div class="d-flex gap-2">
+            <img src="images/ForkKnife.png" alt="" />
+            <span>Snack</span>
           </div>
         </div>
-        <div class="w-fit position-relative">
-          <div class="position-absolute right-2_n">
-            <button class="btn btn-light p-2 rounded-circle shadow-sm">
-              <i class="fas fa-heart text-danger"></i>
-            </button>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 w-fit-sm">
+      <div class="position-relative">
+        <div class="position-absolute right-2_n">
+          <button class="btn btn-light p-2 rounded-circle shadow-sm">
+            <i class="fas fa-heart text-danger"></i>
+          </button>
+        </div>
+        <img src="images/list4.png" alt="" class="rounded-dish img-fluid" />
+        <p class="fw-bold mt-2">
+          Big and juisy Wegu Beef <br />
+          cheese Burger
+        </p>
+        <div class="mt-2 mb-4 d-flex gap-3">
+          <div class="d-flex gap-2">
+            <img src="images/Timer.png" alt="" />
+            <span>30 minutes</span>
           </div>
-          <img
-            src="images/list3.png"
-            alt=""
-            class="rounded-dish"
-            width="240px"
-          />
-          <p class="fw-bold mt-2"    >
-            Big and juisy Wegu Beef <br />
-            cheese Burger
-          </p>
-          <div class="mt-2 mb-4 d-flex gap-3">
-            <div class="d-flex gap-2">
-              <img src="images/Timer.png" alt=""  width="15" />
-              <span  >30 minutes</span>
-            </div>
-            <div class="d-flex gap-2">
-              <img src="images/ForkKnife.png" alt=""  width="15"  />
-              <span   >Snack</span>
-            </div>
+          <div class="d-flex gap-2">
+            <img src="images/ForkKnife.png" alt="" />
+            <span>Snack</span>
           </div>
         </div>
-        <div class="w-fit position-relative">
-          <div class="position-absolute right-2_n">
-            <button class="btn btn-light p-2 rounded-circle shadow-sm">
-              <i class="fas fa-heart text-danger"></i>
-            </button>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 w-fit-sm">
+      <div class="position-relative">
+        <div class="position-absolute right-2_n">
+          <button class="btn btn-light p-2 rounded-circle shadow-sm">
+            <i class="fas fa-heart text-danger"></i>
+          </button>
+        </div>
+        <img src="images/list2.png" alt="" class="rounded-dish img-fluid" />
+        <p class="fw-bold mt-2">
+          Big and juisy Wegu Beef <br />
+          cheese Burger
+        </p>
+        <div class="mt-2 mb-4 d-flex gap-3">
+          <div class="d-flex gap-2">
+            <img src="images/Timer.png" alt="" />
+            <span>30 minutes</span>
           </div>
-          <img
-            src="images/list3.png"
-            alt=""
-            class="rounded-dish"
-            width="240px"
-          />
-          <p class="fw-bold mt-2"    >
-            Big and juisy Wegu Beef <br />
-            cheese Burger
-          </p>
-          <div class="mt-2 mb-4 d-flex gap-3">
-            <div class="d-flex gap-2">
-              <img src="images/Timer.png" alt=""  width="15" />
-              <span  >30 minutes</span>
-            </div>
-            <div class="d-flex gap-2">
-              <img src="images/ForkKnife.png" alt=""  width="15"  />
-              <span   >Snack</span>
-            </div>
+          <div class="d-flex gap-2">
+            <img src="images/ForkKnife.png" alt="" />
+            <span>Snack</span>
           </div>
         </div>
-        <div class="w-fit position-relative">
-          <div class="position-absolute right-2_n">
-            <button class="btn btn-light p-2 rounded-circle shadow-sm">
-              <i class="fas fa-heart text-danger"></i>
-            </button>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 w-fit-sm">
+      <div class="position-relative">
+        <div class="position-absolute right-2_n">
+          <button class="btn btn-light p-2 rounded-circle shadow-sm">
+            <i class="fas fa-heart text-danger"></i>
+          </button>
+        </div>
+        <img src="images/list4.png" alt="" class="rounded-dish img-fluid" />
+        <p class="fw-bold mt-2">
+          Big and juisy Wegu Beef <br />
+          cheese Burger
+        </p>
+        <div class="mt-2 mb-4 d-flex gap-3">
+          <div class="d-flex gap-2">
+            <img src="images/Timer.png" alt="" />
+            <span>30 minutes</span>
           </div>
-          <img
-            src="images/list3.png"
-            alt=""
-            class="rounded-dish"
-            width="240px"
-          />
-          <p class="fw-bold mt-2"    >
-            Big and juisy Wegu Beef <br />
-            cheese Burger
-          </p>
-          <div class="mt-2 mb-4 d-flex gap-3">
-            <div class="d-flex gap-2">
-              <img src="images/Timer.png" alt=""  width="15" />
-              <span  >30 minutes</span>
-            </div>
-            <div class="d-flex gap-2">
-              <img src="images/ForkKnife.png" alt=""  width="15"  />
-              <span   >Snack</span>
-            </div>
+          <div class="d-flex gap-2">
+            <img src="images/ForkKnife.png" alt="" />
+            <span>Snack</span>
           </div>
         </div>
-        
-       </div>
+      </div>
+    </div>
+  </div>
      </section>
      <!-- end of suggested recipees  -->
 

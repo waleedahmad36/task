@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- navbar  -->
-    <nav id="navbar">
+    <nav class="container" id="navbar">
       <div id="logo">
         <span>Foodieland</span>
         <div id="dot"></div>
@@ -62,7 +62,7 @@
       </div>
       <!-- End of mobilenav  -->
     </nav>
-
+    <hr  style="margin-top: -1px;" >
     <!-- End of navbar  -->
 
     <!-- details sec  -->
@@ -187,7 +187,7 @@
     <!-- ingredients  -->
     <section id="ingredients" class="container my-5">
       <!-- ing left right sect -->
-      <div class="d-flex justify-content-center gap-6 flex-wrap flex-lg-nowrap">
+      <div class="d-flex justify-content-center justify-content-lg-between gap-6 flex-wrap flex-lg-nowrap">
         <!-- left side -->
         <div>
           <h3 id="ing_heading">Ingrediants</h3>
@@ -275,7 +275,7 @@
             alt=""
             width="400"
             height="380"
-            class="img-fluid"
+            class="img-fluid mt-5"
           />
         </div>
       </div>
@@ -327,23 +327,24 @@
     <section
       class="container hero-bg rounded-dish py-5 d-flex flex-column align-items-center justify-content-center gap-4 my-5 position-relative"
     >
-      <h3 class=" mt-3"  
-      id="contact_heading"
-      >Deslicious to your inbox</h3>
-      <p class="text-secondary text-center"   style="max-width: 600px;" >
+      <h3 class="mt-3" id="contact_heading">Deslicious to your inbox</h3>
+      <p class="text-secondary text-center" style="max-width: 600px">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum
         quia delectus et facere necessitatibus aspernatur suscipit veritatis,
         vel nihil.
       </p>
       <div
-        class="bg-white d-flex mx-auto w-fit px-2 px-md-2 py-2 py-lg:3 rounded-lg"   
+        class="bg-white d-flex justify-content-between mx-auto  px-2 px-md-2 py-2 py-lg:3 rounded-lg"   style="width: 480px;"    id="contact_inp_bg_div" 
       >
         <input
           type="text"
-          class="bg-none border border-0 no-outline px-2 py-lg-2"
+          class="bg-none border border-0 no-outline px-2 py-lg-2"    style="width: 300px;"
           placeholder="your email address..."
         />
-        <button class="btn btn-dark px-4 px-lg-5 py-2 py-lg-3 fw-semibold"   style="border-radius: 16px;" >
+        <button
+          class="btn btn-dark px-4 px-lg-5 py-2 py-lg-3 fw-semibold"
+          style="border-radius: 16px"
+        >
           Subscribe
         </button>
       </div>
@@ -365,119 +366,106 @@
      <section  id="suggested_heading"  class="container"  >
         <h3  class="text-center" >You may like these recipe too</h3>
 
-       <div class="d-flex my-5 gap-4 flex-wrap flex-lg-nowrap justify-content-center"     id="suggested_item" >
+       <div class="row justify-content-center  my-5 g-4"   id="suggested_item" >
+    <!-- item -->
+    <div class="col-12 col-md-6 col-lg-3 w-fit-sm ">
+      <div class="position-relative">
+        <div class="position-absolute right-2_n">
+          <button class="btn btn-light p-2 rounded-circle shadow-sm">
+            <i class="fas fa-heart text-danger"></i>
+          </button>
+        </div>
+        <img src="images/list3.png" alt="" class="rounded-dish img-fluid" />
+        <p class="fw-bold mt-2">
+          Big and juisy Wegu Beef <br />
+          cheese Burger
+        </p>
+        <div class="mt-2 mb-4 d-flex gap-3">
+          <div class="d-flex gap-2">
+            <img src="images/Timer.png" alt="" />
+            <span>30 minutes</span>
+          </div>
+          <div class="d-flex gap-2">
+            <img src="images/ForkKnife.png" alt="" />
+            <span>Snack</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 w-fit-sm">
+      <div class="position-relative">
+        <div class="position-absolute right-2_n">
+          <button class="btn btn-light p-2 rounded-circle shadow-sm">
+            <i class="fas fa-heart text-danger"></i>
+          </button>
+        </div>
+        <img src="images/list4.png" alt="" class="rounded-dish img-fluid" />
+        <p class="fw-bold mt-2">
+          Big and juisy Wegu Beef <br />
+          cheese Burger
+        </p>
+        <div class="mt-2 mb-4 d-flex gap-3">
+          <div class="d-flex gap-2">
+            <img src="images/Timer.png" alt="" />
+            <span>30 minutes</span>
+          </div>
+          <div class="d-flex gap-2">
+            <img src="images/ForkKnife.png" alt="" />
+            <span>Snack</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 w-fit-sm">
+      <div class="position-relative">
+        <div class="position-absolute right-2_n">
+          <button class="btn btn-light p-2 rounded-circle shadow-sm">
+            <i class="fas fa-heart text-danger"></i>
+          </button>
+        </div>
+        <img src="images/list2.png" alt="" class="rounded-dish img-fluid" />
+        <p class="fw-bold mt-2">
+          Big and juisy Wegu Beef <br />
+          cheese Burger
+        </p>
+        <div class="mt-2 mb-4 d-flex gap-3">
+          <div class="d-flex gap-2">
+            <img src="images/Timer.png" alt="" />
+            <span>30 minutes</span>
+          </div>
+          <div class="d-flex gap-2">
+            <img src="images/ForkKnife.png" alt="" />
+            <span>Snack</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 w-fit-sm">
+      <div class="position-relative">
+        <div class="position-absolute right-2_n">
+          <button class="btn btn-light p-2 rounded-circle shadow-sm">
+            <i class="fas fa-heart text-danger"></i>
+          </button>
+        </div>
+        <img src="images/list4.png" alt="" class="rounded-dish img-fluid" />
+        <p class="fw-bold mt-2">
+          Big and juisy Wegu Beef <br />
+          cheese Burger
+        </p>
+        <div class="mt-2 mb-4 d-flex gap-3">
+          <div class="d-flex gap-2">
+            <img src="images/Timer.png" alt="" />
+            <span>30 minutes</span>
+          </div>
+          <div class="d-flex gap-2">
+            <img src="images/ForkKnife.png" alt="" />
+            <span>Snack</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <!-- items  -->
-        <div class="w-fit position-relative"     >
-          <div class="position-absolute right-2_n">
-            <button class="btn btn-light p-2 rounded-circle shadow-sm">
-              <i class="fas fa-heart text-danger"></i>
-            </button>
-          </div>
-          <img
-            src="images/list3.png"
-            alt=""
-            class="rounded-dish"
-            width="250px"
-          />
-          <p class="fw-bold mt-2"    >
-            Big and juisy Wegu Beef <br />
-            cheese Burger
-          </p>
-          <div class="mt-2 mb-4 d-flex gap-3">
-            <div class="d-flex gap-2">
-              <img src="images/Timer.png" alt=""  width="15" />
-              <span  >30 minutes</span>
-            </div>
-            <div class="d-flex gap-2">
-              <img src="images/ForkKnife.png" alt=""  width="15"  />
-              <span   >Snack</span>
-            </div>
-          </div>
-        </div>
-        <div class="w-fit position-relative">
-          <div class="position-absolute right-2_n">
-            <button class="btn btn-light p-2 rounded-circle shadow-sm">
-              <i class="fas fa-heart text-danger"></i>
-            </button>
-          </div>
-          <img
-            src="images/list3.png"
-            alt=""
-            class="rounded-dish"
-            width="250px"
-          />
-          <p class="fw-bold mt-2"    >
-            Big and juisy Wegu Beef <br />
-            cheese Burger
-          </p>
-          <div class="mt-2 mb-4 d-flex gap-3">
-            <div class="d-flex gap-2">
-              <img src="images/Timer.png" alt=""  width="15" />
-              <span  >30 minutes</span>
-            </div>
-            <div class="d-flex gap-2">
-              <img src="images/ForkKnife.png" alt=""  width="15"  />
-              <span   >Snack</span>
-            </div>
-          </div>
-        </div>
-        <div class="w-fit position-relative">
-          <div class="position-absolute right-2_n">
-            <button class="btn btn-light p-2 rounded-circle shadow-sm">
-              <i class="fas fa-heart text-danger"></i>
-            </button>
-          </div>
-          <img
-            src="images/list3.png"
-            alt=""
-            class="rounded-dish"
-            width="250px"
-          />
-          <p class="fw-bold mt-2"    >
-            Big and juisy Wegu Beef <br />
-            cheese Burger
-          </p>
-          <div class="mt-2 mb-4 d-flex gap-3">
-            <div class="d-flex gap-2">
-              <img src="images/Timer.png" alt=""  width="15" />
-              <span  >30 minutes</span>
-            </div>
-            <div class="d-flex gap-2">
-              <img src="images/ForkKnife.png" alt=""  width="15"  />
-              <span   >Snack</span>
-            </div>
-          </div>
-        </div>
-        <div class="w-fit position-relative">
-          <div class="position-absolute right-2_n">
-            <button class="btn btn-light p-2 rounded-circle shadow-sm">
-              <i class="fas fa-heart text-danger"></i>
-            </button>
-          </div>
-          <img
-            src="images/list3.png"
-            alt=""
-            class="rounded-dish"
-            width="250px"
-          />
-          <p class="fw-bold mt-2"    >
-            Big and juisy Wegu Beef <br />
-            cheese Burger
-          </p>
-          <div class="mt-2 mb-4 d-flex gap-3">
-            <div class="d-flex gap-2">
-              <img src="images/Timer.png" alt=""  width="15" />
-              <span  >30 minutes</span>
-            </div>
-            <div class="d-flex gap-2">
-              <img src="images/ForkKnife.png" alt=""  width="15"  />
-              <span   >Snack</span>
-            </div>
-          </div>
-        </div>
-        
-       </div>
      </section>
      <!-- end of suggested recipees  -->
 

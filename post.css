@@ -2,9 +2,13 @@
 
 #post_heading{
     font-weight: 600;
-    font-size: 48px;
+    font-size: 64px;
     letter-spacing: -4%;
     line-height: 100%;
+}
+#post_img{
+    width: 1280px;
+    height: 654px;
 }
 #border-right{
     border-right: 1px solid #000;
@@ -17,7 +21,7 @@
     background: linear-gradient(to right, rgb(238, 235, 235) 0%, rgba(0,0,0,0) 100%);
 }
 #post_left{
-    max-width: 700px;
+    max-width: 840px;
 }
 #post_left p {
     font-weight: 400;
