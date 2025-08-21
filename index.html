@@ -30,6 +30,8 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
+    <link rel="preload" href="images/Timer.png" as="image">
+<link rel="preload" href="images/ForkKnife.png" as="image">
     <link rel="stylesheet" href="style.css" />
 
     <title>Foodieland.</title>
@@ -106,7 +108,7 @@
             <span class="fw-bold">Hot Recipes</span>
           </button>
 
-          <h3 id="hearo_heading">Spicy delicious chicken wings</h3>
+          <h3 id="hero_heading">Spicy delicious chicken wings</h3>
 
           <p class="text-secondary fw-semibold">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
@@ -115,11 +117,11 @@
 
           <div class="d-flex gap-4 flex-wrap" id="hero_btns">
             <button class="btn btn-bg-hero">
-              <img src="images/Timer.png" alt="" />
+              <img  src="images/Timer.png" alt=""      />
               <span>30 minutes</span>
             </button>
             <button class="btn btn-bg-hero">
-              <img src="images/ForkKnife.png" alt=""   width="20"  height="20"  />
+              <img src="images/ForkKnife.png" alt=""   />
               <span>Chicken</span>
             </button>
           </div>
@@ -190,7 +192,7 @@
             <span class="fw-bold">Hot Recipes</span>
           </button>
 
-          <h3 id="hearo_heading">Spicy delicious chicken wings</h3>
+          <h3 id="hero_heading">Spicy delicious chicken wings</h3>
 
           <p class="text-secondary fw-semibold">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
@@ -273,7 +275,7 @@
             <span class="fw-bold">Hot Recipes</span>
           </button>
 
-          <h3 id="hearo_heading">Spicy delicious chicken wings</h3>
+          <h3 id="hero_heading">Spicy delicious chicken wings</h3>
 
           <p class="text-secondary fw-semibold">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
@@ -1013,7 +1015,6 @@
     <script>
 $(document).ready(function(){
   $("#hero").slick({
-    dots: true,
     // arrows: true,
     infinite: true,
     speed: 600,
