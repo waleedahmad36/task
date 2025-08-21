@@ -8,6 +8,14 @@
 #inp_group select{
     appearance: none;
 }
+@media screen and (min-width:1410px){
+    #inp_group input,select{
+        width: 400px;
+    }
+    #inp_group textarea{
+        width: 810px !important;
+    }
+}
 #right_2{
     right: 12px;
     top: 18px;
@@ -24,10 +32,27 @@
     height: 60px;
     border-radius: 16px;
 }
-
+@media screen and (min-width:740px) and (max-width:1280px){
+    #inp_group input,select{
+        width: 300px;
+    }
+    #inp_group textarea{
+    width: 610px;
+    height: 150px;
+    border-radius: 16px;
+}
+}
 @media screen and (max-width:780px) {
     #inp_group textarea{
         width: 370px ;
+    }
+}
+@media screen and (max-width:400px) {
+    #inp_group input,select{
+        width: 340px;
+    }
+    #inp_group textarea{
+        width: 340px  !important;
     }
 }
 /* end of contact form  */

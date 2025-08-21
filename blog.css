@@ -51,9 +51,14 @@
 /* end of pagg left  */
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:720px) {
     #inp_div{
         width: 90%;
+        height: 70px;
+    }
+    #inp_div button{
+        height: 40px;
+        border: none;
     }
     #pagg_item img {
     width: 95%;
@@ -61,6 +66,24 @@
     border-radius: 20px;
     margin: 0 auto;
 }
+}
+
+@media screen and (min-width:1020px) and (max-width:1400px){
+    #pagg_item h3{
+        font-size: 22px;
+    }
+    #pagg_item p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:1020px) and (max-width:1200px){
+    #pagg_item span{
+        display: none;
+    }
+    #border-right{
+        border: none !important;
+    }
 }
 
 .gen_pagg{
